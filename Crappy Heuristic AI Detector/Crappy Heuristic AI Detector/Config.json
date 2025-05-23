@@ -1,0 +1,51 @@
+{
+  "UncommonQuotesCharsRegex": "[“”‘’]",
+  "CommonQuotesRegex": "[\"']",
+  "UncommonCharsRegex": "[…—–|ǀ·•§©®™×]",
+  "UncommonSpacesRegex": "[\\u00A0\\u200B\\u200C\\u200D\\u2002\\u2003\\u2009\\u200A]",
+  "UncommonWords": [
+    "henceforth",
+    "moreover",
+    "subsequently",
+    "notwithstanding"
+  ],
+  "SentenceSplitChars": [
+    ".",
+    "!",
+    "?"
+  ],
+  "WordSplitChars": [
+    " ",
+    "\t",
+    "\r",
+    "\n",
+    ",",
+    ".",
+    ";",
+    ":",
+    "!",
+    "?",
+    "\"",
+    "'",
+    "(",
+    ")",
+    "[",
+    "]",
+    "{",
+    "}"
+  ],
+  
+  "SentenceMetrics": {
+    "CommonSentenceLengthForHuman": 20,
+    "VeryLongSentenceThreshold": 30,
+    "HighSentenceCountThreshold": 50
+  },
+
+  "ScoringWeights": {
+    "UncommonCharWeight": 2,
+    "UncommonSpaceWeight": 2.25,
+    "UncommonWordWeight": 1,
+    "LongSentencePenalty": -0.5,
+    "HighSentenceCountBonus": 0.5
+  }
+}
